@@ -46,12 +46,12 @@
 </style>
 </head>
 <body>
-  <a class="back" href="javascript:window.close();void(0)" onclick="if(window.opener){window.close();return false;}history.back();return false;" aria-label="Volver">
+  <a class="back" href="index.html" onclick="try{window.close()}catch(e){}; setTimeout(function(){window.location.href='index.html'},120); return false;" aria-label="Volver">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
     Volver
   </a>
   <div class="wrap">
-    <video src="assets/comentarios-demo.mp4" controls autoplay playsinline preload="metadata"></video>
+    <video src="assets/comentarios-demo-v2.mp4" controls autoplay playsinline preload="metadata"></video>
     <div class="label">Muestra · Plataforma externa<small>Comentarios automatizados</small></div>
   </div>
 </body>
